@@ -37,20 +37,20 @@ publishing {
                     appendNode("description", "Yandex adapter for AppLovin MAX mediation")
                     appendNode("url", "https://www.applovin.com/")
                     appendNode("licenses")
-                        .appendNode("license").apply {
-                            appendNode("name", "AppLovin Corporation Mediation Adapter EULA")
-                            appendNode("url", "https://www.applovin.com/eula")
-                        }
+                            .appendNode("license").apply {
+                                appendNode("name", "AppLovin Corporation Mediation Adapter EULA")
+                                appendNode("url", "https://www.applovin.com/eula")
+                            }
                     appendNode("scm").apply {
                         appendNode("connection", "scm:git:github.com/AppLovin/AppLovin-MAX-SDK-Android.git")
                         appendNode("developerConnection", "scm:git:ssh://github.com/AppLovin/AppLovin-MAX-SDK-Android.git")
                         appendNode("url", "https://github.com/AppLovin/AppLovin-MAX-SDK-Android")
                     }
                     appendNode("developers")
-                        .appendNode("developer").apply {
-                            appendNode("name", "AppLovin")
-                            appendNode("url", "https://www.applovin.com")
-                        }
+                            .appendNode("developer").apply {
+                                appendNode("name", "AppLovin")
+                                appendNode("url", "https://www.applovin.com")
+                            }
                     // Add Yandex to list of dependencies.
                     appendNode("dependencies").apply {
                         appendNode("dependency").apply {
